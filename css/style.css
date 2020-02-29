@@ -1,0 +1,440 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,ol{
+    list-style: none;
+}
+img{
+    
+    vertical-align: middle;
+}
+.clr{
+    
+    clear: both;
+}
+
+.fullWrapper{
+    width: 100%;
+    
+    
+}
+
+.container{
+    width: 960px;
+    margin: 0 auto;
+    
+}
+
+
+/*common css ends*/
+
+
+/*logo parts starts here */
+
+.logoFull
+{
+    background: #e2fbff;
+    height: 123px;
+}
+.logo
+{   
+    width: 70%;
+    box-sizing: border-box;
+    float: left;
+    
+}
+.contactUs
+{   
+    float: left;
+    width: 30%;
+    box-sizing: border-box;
+
+}
+
+.contactUs p
+{
+    text-align: right;
+    font-size: 30px;
+    font-family:cursive;
+    color: #336595;
+    line-height: 123px;
+    padding-right: 10px;
+   
+    
+}
+
+
+
+/*logo ends*/
+
+
+/*menu starts here */
+
+
+.menuFull{
+    background: #336595;
+}
+
+.menu{
+    
+    width: 960px;
+    background: #336595;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    
+}
+.menufix {
+    width: 960px;
+    background: #82EDFF;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+}
+
+
+.menu ul li 
+{
+    display: inline-block;
+    padding-left: 17px;
+    font-size: 19;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: cursive;
+    color: #82EDFF;
+    
+}
+
+.menufix ul li 
+{
+    display: inline-block;
+    padding-left: 17px;
+    font-size: 16;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: cursive;
+    color: #336595;
+    
+}
+.menu ul li :hover
+{
+    background: #82EDFF; 
+    color: #336595;
+    border-radius: 5px;
+    transition: all linear .3s;
+    
+}
+.menufix ul li :hover
+{
+    background: #336595; 
+    color: #82EDFF;
+    border-radius: 5px;
+    transition: all linear .3s;
+    
+}
+
+/*menu ends here */
+
+/*banner starts here */
+
+.bannerFull
+{
+ background: url(../images/banner.jpg);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-blend-mode: color-dodge;
+ opacity: 90%;
+ position: relative;
+}
+
+.bannerFull:after
+{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+    
+    
+    
+    
+    
+}
+
+.bannerContain
+{   
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 200px;
+   
+}
+
+.bannerContain h6
+{
+    color: yellow;
+    font-size: 30px;
+    
+}
+.bannerContain p
+{
+    margin-left: 150px;
+    margin-right: 150px;
+    color: white;
+}
+
+
+
+
+/*banner ends here */
+
+/*body starts here */
+
+
+.bodyFull
+{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+   
+}
+
+
+.group
+{
+    width: 960px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.agroup
+{
+   
+    background: #336595; 
+   
+}
+
+.agroup p{
+    font-size: 30px;
+    font-family: 'Dancing Script';
+    text-transform:uppercase;
+    font-weight: 900;
+    color: #82EDFF;
+    
+}
+.bgroup
+{
+   
+    background: #82EDFF; 
+   
+}
+.bgroup p{
+    font-size: 30px;
+    font-family: 'Dancing Script';
+    text-transform:uppercase;
+    font-weight: 900;
+    color: #336595;
+    
+}
+.cgroup
+{
+   
+    background: #336595; 
+   
+}
+
+.cgroup p{
+    font-size: 30px;
+    font-family: 'Dancing Script';
+    text-transform:uppercase;
+    font-weight: 900;
+    color: #82EDFF;
+    
+}
+.dgroup
+{
+   
+    background: #82EDFF; 
+   
+}
+.dgroup p{
+    font-size: 30px;
+    font-family: 'Dancing Script';
+    text-transform:uppercase;
+    font-weight: 900;
+    color: #336595;
+    
+}
+
+.bodyContain
+{
+    position: relative;
+    
+}
+
+
+.all {
+    padding-top: 50px;
+    border-radius: 80px;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    height: 180px;
+    background: rgba(0, 0, 0, 0.7);
+    box-sizing: border-box;
+    
+}
+
+
+.all :hover {
+    color: red;
+    transition: all linear .3s;
+    text-shadow: -2px -2px #fff;
+    transform: translate(4px,4px);
+   
+}
+
+.all p
+{
+    font-size: 30px;
+    font-family: 'Dancing Script';
+    text-transform: capitalize;
+    font-weight: 700;
+    color: white;
+    
+}
+.singleColumn
+{
+    width: 25%;
+    float:left;
+    height:610px;
+    box-sizing: border-box;
+    margin-top: 70px;
+}
+
+/*a starts here*/
+
+
+.abodyContain
+{
+    width: 960px;
+    height: 610px;
+    background: url(../images/bodycontain/chinese.jpg);
+    text-align: center;
+    border-radius: 50px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+
+/* a ends here */
+
+
+.bbodyContain
+{
+    width: 960px;
+    height: 610px;
+    background: url(../images/bodycontain/burger.jpg);
+    border-radius: 50px;
+    
+}
+
+
+
+/* b ends here */
+
+
+.cbodyContain
+{
+    width: 960px;
+    height: 610px;
+    background: url(../images/bodycontain/juice.jpg);
+    border-radius: 50px;
+    
+}
+
+
+/* c ends here */
+
+
+.dbodyContain
+{
+    width: 960px;
+    height: 610px;
+    background: url(../images/bodycontain/desert.jpg);
+    border-radius: 50px;
+    
+}
+
+
+/* d ends here */
+
+
+.nxtArr{
+    width: 40px;
+    height: 40px;
+    border: solid 1px yellow;
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(50%);
+    
+    
+}
+
+.prvArr{
+    width: 40px;
+    height: 40px;
+    border: solid 1px yellow;
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    transform: translateY(50%);
+    z-index: 99;
+}
+
+
+/*body ends here */
+.blank
+{
+    height: 2000px;
+}
+
+
+.btmButton{
+    z-index: 99;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    color: black;
+    text-align: center;
+    bottom: 30px;
+    right: 30px;
+    background: #0cfa0c;
+    border-radius: 10px;
+}
+.btmButton p
+{
+  font-size: 30px;
+  line-height: 40px;
+    
+}
